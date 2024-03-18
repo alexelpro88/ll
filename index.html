@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LA SOCIEDAD DE LA NIEVE</title>
+    <style>
+      body {
+        background-color: #7b99ec;
+      }
+      header {
+        background-color: #220b77;
+        padding: 15px;
+      }
+      .logo {
+        width: 50px;
+        margin-right: 10px;
+      }
+      header h1 {
+        float: right;
+      }
+      .menu {
+        display: flex; /*desplegamos en una linea*/
+        background-color: #4a47db; /*color de fondo*/
+        padding: 5px; /*espacio entre la caja*/
+        float: right; /*ubicacion en la derecha*/
+      }
+      /*.(nombre de la clase)*/
+      .menu a {
+        /* todos las etiquetas a dentro de menu*/
+        color: rgb(228, 222, 213); /*color de la letra*/
+        text-align: center; /*alineacion al centro*/
+        padding: 14px 16px; /*color de la letra (arriba, derecha,abajo,izquierda)*/
+        text-decoration: none; /*indicamos que no tiene decoracion*/
+      }
+
+      menu a:hover {
+        /*en el menu y cubra la etiqueta a cambia de color*/
+        background-color: #ddd; /*indicamos el color*/
+      }
+      .contenido {
+        margin-top: 5px; /*le damos espacio de margen (top=arriba,bot=abajo,rigth=derecha,left=izquierda)*/
+      }
+      #imagen {
+        /* para centrar imagen #id .class*/
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 300px;
+      }
+
+      .texto {
+        /* modifica la tipografia*/
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        /* modifica el tamaño de la letra*/
+        font-size: small;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo.png" alt="Logo" />
+      </div>
+
+      <h1>Farid Dieck</h1>
+    </header>
+    <nav class="menu">
+      <a href="#res">RESUMEN</a>
+      <a href="#exp">EXPLORACION</a>
+      <a href="#ana">ANALISIS</a>
+      <a href="#ref">REFLEXION</a>
+      <a href="#esp">ESPERANZA</a>
+      <a href="#com">COMPARACION</a>
+      <a href="#dis">DISCUSION</a>
+      <a href="#imp">IMPACTO</a>
+      <a href="#sup">SUPERVIVENCIA</a>
+      <a href="#fin">FINAL</a>
+    </nav>
+    <main class="contenido">
+      <section>
+        <a name="menu"></a>
+        <h2>LA SOCIEDAD DE LA NIEVE</h2>
+        <p class="texto">
+            Esta película sigue los hechos que sucedieron el 13 de octubre de 1972 cuando el vuelo 571 de la Fuerza Aérea Uruguaya se estrelló en El Valle de las Lágrimas, ubicado en la cordillera de los Andes en Chile.
+        </p>
+
+        <p class="texto">
+            En este vuelo viajaban 45 personas, entre ellas 19 miembros del equipo de rugby Old Christians Club. Los pasajeros estuvieron en este valle 72 días sufriendo las inclemencias del clima, además de pasar hambre y diversas situaciones que pusieron en riesgo su vida.
+        </p>
+
+        <iframe 
+          id="imagen"
+          width="854"
+          height="480" 
+          src="https://www.youtube.com/embed/rjBHugEYUog" 
+          title="La SOCIEDAD de la NIEVE desde OTRA PERSPECTIVA | Relato y Reflexiones" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen
+        ></iframe>
+
+        <p class="texto">
+            La sociedad de la nieve nos cuenta la historia del vuelo 571, estrellado en Los Andes en 1972. De los 45 pasajeros y tripulantes sobrevivieron 16, que se alimentaron de los cadáveres de los muertos para sobrevivir en tan extremas condiciones durante 10 semanas.
+        </p>
+      </section>
+      <section>
+        <a id="res"></a>
+        <h2 class="texto">RESUMEN</h2>
+        <p class="texto">
+            Resumen de la historia real del vuelo de los uruguayos en los Andes en 1972: El vuelo 571 de la Fuerza Aérea Uruguaya se estrelló en los Andes el 13 de octubre de 1972. Los sobrevivientes lucharon por su vida durante 72 días en condiciones extremas antes de ser rescatados.
+        </p>
+      </section>
+      <section>
+        <a id="exp"></a>
+        <h2 class="texto">EXPLORACION</h2>
+        <p class="texto">
+            Exploración de los aspectos psicológicos y emocionales de la supervivencia en condiciones extremas: El accidente planteó desafíos psicológicos y emocionales significativos para los sobrevivientes, incluida la lucha contra el miedo, la desesperación y la adaptación a un entorno hostil.
+        </p>
+      </section>
+      <section>
+        <a id="ana"></a>
+        <h2 class="texto">ANALISIS</h2>
+        <p class="texto">
+            Análisis de la dinámica del grupo y la toma de decisiones en situaciones de crisis: Los sobrevivientes tuvieron que tomar decisiones difíciles para sobrevivir, incluida la decisión de recurrir al canibalismo para alimentarse.
+        </p>
+      </section>
+      <section>
+        <a id="ref"></a>
+        <h2 class="texto">REFLEXION</h2>
+        <p class="texto">
+            Reflexión sobre la moralidad y la ética en situaciones límite: El caso plantea preguntas éticas sobre la moralidad de acciones desesperadas tomadas en situaciones extremas, como el canibalismo.
+        </p>
+      </section>
+      <section>
+        <a id="esp"></a>
+        <h2 class="texto">ESPERANZA</h2>
+        <p class="texto">
+            Exploración de temas de resiliencia y esperanza en medio de la adversidad: A pesar de las circunstancias desesperadas, los sobrevivientes mostraron resiliencia y mantuvieron la esperanza de ser rescatados.
+        </p>
+      </section>
+      <section>
+        <a id="com"></a>
+        <h2 class="texto">COMPARACION</h2>
+        <p class="texto">
+            Comparación entre las adaptaciones cinematográficas y las experiencias reales de los sobrevivientes: Las películas y documentales basados en la historia a menudo difieren de las experiencias reales de los sobrevivientes, lo que plantea cuestiones sobre la representación de la verdad histórica en los medios.
+        </p>
+      </section>
+      <section>
+        <a id="dis"></a>
+        <h2 class="texto">DISCUSION</h2>
+        <p class="texto">
+            Discusión sobre la importancia de la solidaridad y el compañerismo en situaciones extremas: La solidaridad y el apoyo mutuo entre los sobrevivientes fueron fundamentales para su supervivencia y bienestar emocional.
+        </p>
+      </section>
+      <section>
+        <a id="imp"></a>
+        <h2 class="texto">IMPACTO</h2>
+        <p class="texto">
+            Impacto cultural y mediático del incidente del vuelo de los uruguayos en los Andes: El accidente y la historia de supervivencia capturaron la atención del mundo y generaron un debate global sobre la moralidad y la supervivencia humana.
+        </p>
+      </section>
+      <section>
+        <a id="sup"></a>
+        <h2 class="texto">SUPERVIVENCIA</h2>
+        <p class="texto">
+            Reflexión sobre la naturaleza humana y la capacidad de supervivencia en condiciones extremas: El caso del vuelo 571 plantea preguntas sobre la naturaleza humana y la capacidad de los individuos para adaptarse y sobrevivir en circunstancias extremas.
+        </p>
+      </section>
+      <section>
+        <a id="fin"></a>
+        <h2 class="texto">FINAL</h2>
+        <p class="texto">
+            Revisión de los eventos posteriores al accidente y el impacto a largo plazo en la vida de los sobrevivientes: Los sobrevivientes continuaron enfrentando desafíos físicos, emocionales y psicológicos después del rescate, lo que destaca el impacto duradero del accidente en sus vidas.
+        </p>
+      </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Farid Dieck. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
